@@ -1,0 +1,8 @@
+﻿:root{--g:#1a6b3a;--gl:#2d8a50;--gx:#d4edda;--gm:#4caf72;--am:#e9c46a;--ad:#f4a261;--red:#e63946;--redx:#ffeae9;--bg:#f5f9f6;--card:#fff;--bd:#dce8e0;--t1:#152b1e;--t2:#3d6b4f;--t3:#7a9e87;--r:12px;--rs:8px}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--t1);font-size:14px;-webkit-font-smoothing:antialiased}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:var(--r);padding:14px;margin-bottom:10px}
+.field-input{width:100%;border:1.5px solid var(--bd);border-radius:var(--rs);padding:9px 12px;font-size:13px;outline:none;font-family:inherit;background:#fff;color:var(--t1);transition:border-color .2s}
+.field-input:focus{border-color:var(--gl)}
+.field-input:disabled{background:#f5f5f5;color:var(--t3)}
+.field-select{width:100%;border:1.5px solid var(--bd);border-radius:var(--rs);padding:9px 12px;font-size:13px;outline:none;appearance:none;font-family:inherit;background:#fff;color:var(--t1)}
